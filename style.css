@@ -37,15 +37,18 @@ color: #DC143C; }
   padding: 8px 15px; border-radius: 999px; border: 0; background: transparent; color: var(--ink);
   transition: background .3s, color .3s;
 }
-.themes button:hover { background: color-mix(in srgb, var(--ink) 10%, transparent); }
+.themes button:hover {
+     background: color-mix(in srgb, var(--ink) 10%, transparent); }
 .themes button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
-.themes .ico { font-size: 1.05rem; line-height: 1; }
+.themes .ico { 
+    font-size: 1.05rem; line-height: 1; }
 .toolbar {
   display: flex; align-items: center; justify-content: space-between; gap: 14px 20px; flex-wrap: wrap;
   padding: 16px 0; margin-bottom: 22px;
   border-block: 1.5px solid color-mix(in srgb, var(--ink) 14%, transparent);
 }
-.filters { display: flex; flex-wrap: wrap; gap: 8px; }
+.filters { 
+    display: flex; flex-wrap: wrap; gap: 8px; }
 .chip {
   font: inherit; font-size: .9rem; cursor: pointer; padding: 8px 16px; border-radius: 999px;
   border: 1.5px solid color-mix(in srgb, var(--ink) 30%, transparent); background: transparent; color: var(--ink);
@@ -70,7 +73,8 @@ color: #DC143C; }
   box-shadow: 0 14px 30px -18px var(--shadow);
   transition: transform .45s var(--ease), box-shadow .45s var(--ease), opacity .35s, background .4s;
 }
-.card:hover { transform: translateY(-6px) rotate(-.6deg); box-shadow: 0 24px 40px -20px var(--shadow); }
+.card:hover { 
+    transform: translateY(-6px) rotate(-.6deg); box-shadow: 0 24px 40px -20px var(--shadow); }
 .card.out { opacity: 0; transform: scale(.94); }
 .frame { overflow: hidden; border-radius: 8px; background: linear-gradient(110deg, var(--frame) 30%, var(--shine) 50%, var(--frame) 70%); background-size: 200% 100%; animation: shimmer 1.4s infinite linear; }
 .frame.done { animation: none; background: var(--frame); }
