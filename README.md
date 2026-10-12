@@ -12,8 +12,10 @@ Built with plain HTML, CSS and JavaScript. No frameworks, no build step.
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=flat&logo=vercel&logoColor=white)
  
-![Snapshelf screenshot](screenshot.png)
- 
+<img width="1342" height="609" alt="image" src="https://github.com/user-attachments/assets/aef948ee-ecef-483a-a95b-2761ac60f5f5" />
+<img width="1282" height="585" alt="image" src="https://github.com/user-attachments/assets/c6fa1764-df7d-4444-9703-d3538d970d99" />
+<img width="1320" height="575" alt="image" src="https://github.com/user-attachments/assets/ce62dbb1-c521-473d-8118-64dcc2c8e722" />
+
 </div>
 ---
  
